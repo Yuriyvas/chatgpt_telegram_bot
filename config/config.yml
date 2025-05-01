@@ -1,3 +1,6 @@
 telegram_token: ${7902970696:AAHHeKuo1ZZx3bO8TbBCAAGJCWcQO5P6Cgs}
 openai_api_key: ${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}
 allowed_telegram_usernames: []
+new_dialog_timeout: 600                  # в секундах (10 минут)
+enable_message_streaming: false          # можно true, если бот поддерживает потоковые ответы
+n_chat_modes: 1                          # число доступных режимов (если используется)
